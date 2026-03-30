@@ -1,23 +1,24 @@
-### @explicitHints true
+﻿### @explicitHints true
 
-# Activity 2 - Breaking boulders.
+# Aktivität 2 - Felsen zerschlagen.
 
 
 ## Step 1
-**Part 1:** Write some code to make the Agent move forward while breaking and collecting each **stone** block in its way.
+**Teil 1:** Schreibe einen Code, damit der Agent vorwärtsläuft und jeden **Stein**block auf seinem Weg abbaut und einsammelt.
 ### ~ tutorialhint
-Agent inspect condition command structure:  
+Struktur des Agent-inspect-Befehls für Bedingungen:  
 ```python
 agent.inspect(AgentInspection.BLOCK, DIRECTION) == BLOCK_TYPE
 ```
 
 ## Step 2 
-**Part 2:** Add to the code to now make the Agent till and plant saplings on the **grass** blocks.  
+**Teil 2:** Ergänze den Code so, dass der Agent nun die **Gras**blöcke bearbeitet und Setzlinge pflanzt.  
 ### ~ tutorialhint
-Agent inspect condition command structure:  
+Struktur des Agent-inspect-Befehls für Bedingungen:  
 ```python
 agent.inspect(AgentInspection.BLOCK, DIRECTION) == BLOCK_TYPE
 ```
 
 ```template        
 ```
+

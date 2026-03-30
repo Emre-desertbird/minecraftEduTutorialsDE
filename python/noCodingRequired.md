@@ -4,8 +4,9 @@
 player.say
 ```
 ## Introduction @unplugged
-    No coding is needed right now. Exit the coding window and return to the map.
+    Jetzt ist kein Programmieren nötig. Schließe das Codefenster und gehe zurück zur Karte.
 
 ## Step 1 
-    No coding is needed right now. Exit the coding window and return to the map.
+    Jetzt ist kein Programmieren nötig. Schließe das Codefenster und gehe zurück zur Karte.
+
 

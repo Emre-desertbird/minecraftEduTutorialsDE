@@ -1,4 +1,4 @@
-### @hideIteration true 
+﻿### @hideIteration true 
 
 ```python
 player.say()
@@ -8,9 +8,9 @@ location1 = pos(0, 2, 0)
 location1 = pos(0, 3, 0)
 ```
 
-#TESTING GROUNDS 2
+#TESTBEREICH 2
 ## Step 1
-TESTING GROUND 2
+TESTBEREICH 2
 
 ```ghost
 player.say()
@@ -19,3 +19,4 @@ location1 = pos(0, 1, 0)
 location1 = pos(0, 2, 0)
 location1 = pos(0, 3, 0)
 ```
+

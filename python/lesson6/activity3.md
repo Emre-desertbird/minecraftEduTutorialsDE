@@ -1,6 +1,6 @@
-### @explicitHints true
+﻿### @explicitHints true
 ### @hideIteration true 
-# Activity 3 -  Getting through. 
+# Aktivität 3 -  Hindurchkommen. 
 
 ```python
 agent.detect(AgentDetection.BLOCK, FORWARD) 
@@ -13,16 +13,16 @@ if True:
 ```
 
 ## Step 1
-Write some code to make the Agent detect and avoid randomly placed blocks, as it moves through the course. To do this use an 
-`||logic:if else||` conditional with an **elif** conditional in between. For the **if** condition use two `||agent:agent detect||` commands 
-with an **and not** operator in between them. For the **elif** condition use two `||agent:agent detect||` commands 
-with an **and** operator in between them. An example of two conditions with an **and not** operator:
+Schreibe einen Code, damit der Agent zufällig platzierte Blöcke erkennt und ihnen ausweicht, während er den Parcours durchläuft. Nutze dafür eine 
+`||logic:if else||`-Bedingung mit einem **elif** dazwischen. Für die **if**-Bedingung nutze zwei `||agent:agent detect||`-Befehle 
+mit einem **and not**-Operator dazwischen. Für die **elif**-Bedingung nutze zwei `||agent:agent detect||`-Befehle 
+mit einem **and**-Operator dazwischen. Ein Beispiel mit zwei Bedingungen und **and not**:
 ```python
 agent.detect(AgentDetection.BLOCK, DIRECTION) and not agent.detect(AgentDetection.BLOCK, DIRECTION)
 ```
 
 ### ~ tutorialhint 
-When using more than one condition together you can use an **and** or **and not** to check multiple states. 
+Wenn du mehrere Bedingungen kombinierst, kannst du **and** oder **and not** verwenden, um mehrere Zustände zu prüfen. 
 
 ```template
 //Replace the lines below with your code #    
@@ -35,3 +35,4 @@ agent.move(RIGHT, 2)
 agent.move(FORWARD, 1)                                   
 //End of loop                                       
 ```
+

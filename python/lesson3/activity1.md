@@ -4,16 +4,16 @@
 .
 ```
 
-# Activity 1 - Sorting things out. 
+# Aktivität 1 - Ordnung schaffen. 
 
 ## Step 1
-Create **two** new variables called **b** and **c**. The value of **b** should be **melon** and the value of **c** should be **apple**. 
+Erstelle **zwei** neue Variablen namens **b** und **c**. Der Wert von **b** soll **melon** sein und der Wert von **c** soll **apple** sein. 
 ### ~ tutorialhint
-Remember to use quotes with strings.
+Denke daran, bei Strings Anführungszeichen zu verwenden.
  
 ## Step 2
-Look at the monitor on the wall and change the fruit variable value to match the sequence. 
-Run the code and press the matching fruit buttons in the same sequence as in the chat, until all of the lights turn on. 
+Sieh dir den Monitor an der Wand an und ändere den Wert der Variablen `fruit`, damit er zur Reihenfolge passt. 
+Führe den Code aus und drücke die passenden Obst-Tasten in derselben Reihenfolge wie im Chat, bis alle Lichter an sind. 
 
 ```template
 //Replace the lines below with your code #
@@ -34,3 +34,4 @@ fruit = d
 player.say(fruit)
 
 ``` 
+

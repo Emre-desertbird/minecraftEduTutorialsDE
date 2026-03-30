@@ -1,7 +1,7 @@
 ﻿### @explicitHints true
 ### @hideIteration true 
 
-# Spring arrival
+# Frühlingsbeginn
 
 ```python
 agent.move(FORWARD, 5)
@@ -27,9 +27,9 @@ while True:
 ```
 
 ## Step 1
-In the coding window, you have been given code that does not work. Delete the quotes (**'**) from the beginning and end of each line. 
-This code is supposed to plant flowers on each block of grass by making the Agent move through the area row by row.
-Can you finish the code by adding a conditional and debugging the main loop?
+Im Codefenster wurde dir Code, der nicht funktioniert. Entferne die Anführungszeichen (**'**) am Anfang und Ende jeder Zeile. 
+Dieser Code soll Blumen auf jeden Grasblock pflanzen, indem der Agent den Bereich Reihe für Reihe durchläuft.
+Kannst du den Code fertigstellen, indem du eine Bedingung hinzufügst und die Hauptschleife debugst?
 ```template
 'for index in range(4):'
 '   for index2 in range(8):'
@@ -47,6 +47,7 @@ Can you finish the code by adding a conditional and debugging the main loop?
 '   agent.move(FORWARD, 1)'
 '   agent.turn(LEFT_TURN)'
 ```
+
 
 
 

@@ -1,6 +1,6 @@
-### @explicitHints true
+﻿### @explicitHints true
 ### @hideIteration true 
-# Depths of the earth. 
+# Tiefen der Erde. 
 
 ```python
 agent.move(FORWARD, 5)
@@ -26,6 +26,7 @@ while True:
 ```
 
 ## Step 1
-Make the Agent mine the diamond ore behind it, and then drop the mined diamond into the collection area at the other end. Make the Agent return, 
-mine the emerald ore that will appear and drop it in the collection area. 
+Lass den Agenten das Diamanterz hinter sich abbauen und den Diamanten dann am anderen Ende im Sammelbereich ablegen. Lass den Agenten zurückkehren, 
+das erscheinende Smaragderz abbauen und es im Sammelbereich ablegen. 
+
 

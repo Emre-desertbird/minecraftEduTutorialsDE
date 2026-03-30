@@ -5,14 +5,15 @@
 player.say("Hi")
 ```
 
-# Activity 3 - What is the correct number?
+# Aktivität 3 - Welche Zahl ist richtig?
 
 ## Step 1
-Look at each TV monitor and calculate the sums using code.
-To use the mathematical value of numbers in a command, quotes should **not** be used. For example:
+Sieh dir jeden TV-Monitor an und berechne die Aufgaben mit Code.
+Um den mathematischen Wert von Zahlen in einem Befehl zu verwenden, sollten **keine** Anführungszeichen genutzt werden. Zum Beispiel:
 ```python
 player.say(1+1) 
 ```
 
-When this code runs, it gives the result **2**. Work out the correct answers to the sums on the TV monitors and select the corresponding buttons.
+Wenn dieser Code ausgeführt wird, ergibt er **2**. Löse die Aufgaben auf den TV-Monitoren und wähle die passenden Tasten aus.
+
 

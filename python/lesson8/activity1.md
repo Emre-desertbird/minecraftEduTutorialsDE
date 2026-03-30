@@ -1,6 +1,6 @@
 ﻿### @explicitHints true
 
-# Activity 1 - One row at a time. 
+# Aktivität 1 - Eine Reihe nach der anderen. 
 
 ```python
 agent.till(RIGHT)
@@ -9,21 +9,21 @@ agent.set_slot(1)
 ```
 
 ## Step 1
-**Part 1:** Write some code to make the Agent move forward while tilling and planting saplings, on the **grass** blocks, to its left. Example of 
-function structure: 
+**Teil 1:** Schreibe einen Code, damit der Agent vorwärtsläuft und auf den **Gras**blöcken links von sich den Boden bearbeitet und Setzlinge pflanzt. Beispiel für die 
+Funktionsstruktur: 
 ```python
 def function_name():
     agent.till(RIGHT)
 ```
 
 ### ~ tutorialhint 
-Remember to describe, in a comment, what your function does.  
+Denke daran, in einem Kommentar zu beschreiben, was deine Funktion macht.  
 
 ## Step 2 
-**Part 2:** Add to the code so the Agent uses fertilizer on each sapling **6** times.
+**Teil 2:** Ergänze den Code so, dass der Agent jeden Setzling **6**-mal düngt.
 ### ~ tutorialhint 
-The Agent has fertilizer in its **second** inventory slot. Switch between the Agent's **first** and **second** slots using the `||agent:set active slot||`
-command.  
+Der Agent hat Dünger im **zweiten** Inventarplatz. Wechsle zwischen dem **ersten** und **zweiten** Platz mit `||agent:set active slot||`
+Befehl.  
 
 ```template
 //Replace with your functions below #
@@ -47,4 +47,5 @@ agent.move(FORWARD, 1)
 //Make the Agent move forward                 |Part 1
 //Call your function                          |Part 1                 
 ```
+
 

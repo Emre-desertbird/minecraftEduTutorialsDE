@@ -2,16 +2,17 @@
 ### @hideIteration true 
 
 
-# Activity 1 - Which one is right?
+# Aktivität 1 - Welche ist richtig?
 
 ## Step 1
-Check the commands shown on the computer monitors and find the one that correctly shows **"Hi"** in chat when run.
-In-game, press the mouse button on the right side of the monitor when the code runs correctly.
-Click on the hints if you need help.
+Prüfe die Befehle auf den Computermonitoren und finde den Befehl, der **"Hi"** korrekt im Chat anzeigt.
+Drücke im Spiel die Maustaste auf der rechten Seite des Monitors, wenn der Code korrekt ausgeführt wird.
+Klicke auf die Hinweise, wenn du Hilfe brauchst.
 
 ### ~ tutorialhint 
-The command structure in Minecraft Python is:
+Die Befehlsstruktur in Minecraft Python ist:
 ```python
 command_group.command_name()
 ```
+
 

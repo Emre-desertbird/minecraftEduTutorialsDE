@@ -1,6 +1,6 @@
-### @explicitHints true
+﻿### @explicitHints true
 ### @hideIteration true 
-# Row by row.
+# Reihe für Reihe.
 
 ```python
 agent.move(FORWARD, 5)
@@ -26,4 +26,5 @@ while True:
 ```
 
 ## Step 1
-Can you make the Agent move over every block in the area sideways, row by row, without it turning? 
+Kannst du den Agenten seitlich, Reihe für Reihe, über jeden Block im Bereich bewegen, ohne dass er sich dreht? 
+

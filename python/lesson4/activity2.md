@@ -1,31 +1,31 @@
 ﻿### @explicitHints true
 
-# Activity 2 - Dietary requirement.
+# Aktivität 2 - Ernährungsbedarf.
 
 ```python
 blocks.place()
 ```
 
 ## Step 1
-Give the **first** dog everything that's already in the predefined list by changing the values of the first **4** `||blocks:place block at position||`
-commands so each one places, in order, one item from the list. Then give the food from the chest to dog 1.
+Gib dem **ersten** Hund alles, was bereits in der vordefinierten Liste steht, indem du die Werte der ersten **4** `||blocks:place block at position||`-Befehle änderst
+sodass jeder Befehl in Reihenfolge einen Eintrag aus der Liste platziert. Gib dann das Futter aus der Truhe an Hund 1.
 
 ### ~ tutorialhint 
-To drop items from the hot bar press the [**Q**] key on your keyboard. 
+Um Gegenstände aus der Hotbar fallen zu lassen, drücke die Taste [**Q**] auf deiner Tastatur. 
 
 ## Step 2
-Give the **second** dog everything that's already in the list with additional vitamins added. 
-Do this by using the **append** method to add the variable **Vitamins** to the end of the list.
-Then change the value of the last `||blocks: place block at position||` command so that it places the vitamins in the machine, and 
-then give the food to dog number two.
+Gib dem **zweiten** Hund alles, was bereits in der Liste ist, plus zusätzliche Vitamine. 
+Nutze dafür die Methode **append**, um die Variable **Vitamins** am Ende der Liste hinzuzufügen.
+Ändere dann den Wert im letzten `||blocks: place block at position||`-Befehl so, dass die Vitamine in die Maschine gelegt werden, und 
+gib dann das Futter an Hund 2.
 
 ## Step 3
-Give the **third** dog everything that's already in the list but with no **beef**. 
-Do this by using the **pop** method to remove the variable **Beef** from the list.
-Then give the food to dog 3.
+Gib dem **dritten** Hund alles, was bereits in der Liste ist, aber ohne **Rindfleisch**. 
+Nutze dafür die Methode **pop**, um die Variable **Beef** aus der Liste zu entfernen.
+Gib dann das Futter an Hund 3.
 
 ### ~ tutorialhint 
-With the **pop** method you must use the list position value and **not** its name. 
+Bei der Methode **pop** musst du den Positionswert der Liste verwenden und **nicht** den Namen. 
 
 ```template
 Bone = world(-21, 45, -31)
@@ -48,4 +48,5 @@ blocks.place(REDSTONE_BLOCK, Dog_Food[0])
 //Change the numerical value of the list below                  | Step 2
 blocks.place(REDSTONE_BLOCK, Dog_Food[0]) 
 ```
+
 

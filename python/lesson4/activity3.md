@@ -1,30 +1,30 @@
 ﻿### @explicitHints true
 
-# Activity 3 - What is the cat's name?
+# Aktivität 3 - Wie heißt die Katze?
 
 ```python
 player.say("hi")
 ```
 
 ## Step 1
-Set the last name in the list of cat names to now equal the string **Shadow**. 
-Change the value inside the `||player:say||` command so that it displays the **last** name in the list. 
-Then press the **select a cat** button and choose the cat shown in the chat.   
+Setze den letzten Namen in der Liste der Katzennamen auf den String **Shadow**. 
+Ändere den Wert im Befehl `||player:say||`, sodass der **letzte** Name der Liste angezeigt wird. 
+Drücke dann die Schaltfläche **select a cat** und wähle die Katze aus, die im Chat angezeigt wird.   
 ### ~ tutorialhint 
-To change a value in a list, use: List_Name[positional value] = "New Cat Name".
+Um einen Wert in einer Liste zu ändern, nutze: List_Name[positional value] = "New Cat Name".
 
 ## Step 2
-Sort the list of cat names alphabetically using the **sort** method. 
-Then change the value inside the `||player:say||` command so that it displays the **fourth** name in the list.   
-Don't forget, lists count from 0, so the 4th item won't be `Cat_Names[4]`.    
-Then press the **select a cat** button and choose the cat shown in the chat.   
+Sortiere die Liste der Katzennamen alphabetisch mit der Methode **sort**. 
+Ändere danach den Wert im `||player:say||`-Befehl so, dass der **vierte** Name in der Liste angezeigt wird.   
+Denk daran: Listen zählen ab 0, daher ist der 4. Eintrag nicht `Cat_Names[4]`.    
+Drücke dann die Schaltfläche **select a cat** und wähle die Katze aus, die im Chat angezeigt wird.   
 ### ~ tutorialhint 
-Remember that list positions start from zero. 
+Denke daran, dass Listenpositionen bei null beginnen. 
 
 ## Step 3
-Reverse the list of cat names using the **reverse** method. 
-Keep the same value inside the `||player:say||` command.
-Then press the **select a cat** button and choose the cat shown in the chat.   
+Drehe die Liste der Katzennamen mit der Methode **reverse** um. 
+Behalte denselben Wert im Befehl `||player:say||` bei.
+Drücke dann die Schaltfläche **select a cat** und wähle die Katze aus, die im Chat angezeigt wird.   
 
 ```template
 Cat_Names= ["Smokey", "Oreo", "Sammy", "Patch", "Princess", "Snowy"]
@@ -35,4 +35,5 @@ Cat_Names= ["Smokey", "Oreo", "Sammy", "Patch", "Princess", "Snowy"]
 //Change the value of the list below | Step 1,2,3
 player.say(Cat_Names[0])  
 ```
+
 

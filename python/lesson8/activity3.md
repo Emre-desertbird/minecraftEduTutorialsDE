@@ -1,6 +1,6 @@
-### @explicitHints true
+﻿### @explicitHints true
 
-# Activity 3 - Pasture of trees. 
+# Aktivität 3 - Baumweide. 
 
 ```python
 agent.turn(RIGHT_TURN)
@@ -19,12 +19,12 @@ elif:
 ```
 
 ## Step 1
-**Part 1:** Write three new functions with different sequences, one to make the Agent **move forward**, one to **turn left**, and one to **turn right**. 
-Then use these functions in a `||loops:for||` loop to make the Agent pass over every block in the area, row by row, until it reaches the gold block.
+**Teil 1:** Schreibe drei neue Funktionen mit unterschiedlichen Sequenzen: eine für **vorwärts gehen**, eine für **links drehen** und eine für **rechts drehen**. 
+Nutze diese Funktionen dann in einer `||loops:for||`-Schleife, damit der Agent den Bereich Reihe für Reihe über jeden Block durchläuft, bis er den Goldblock erreicht.
 
 ## Step 2 
-**Part 2:** Add to the code to make the Agent till the grass blocks that it passes over and plant a sapling.
-Do this by adding an `||logic:if else||` conditional, that inspects for grass blocks, in the function that moves the Agent forward. 
+**Teil 2:** Ergänze den Code so, dass der Agent die Grasblöcke bearbeitet, über die er läuft, und einen Setzling pflanzt.
+Füge dafür in der Vorwärts-Funktion eine `||logic:if else||`-Bedingung hinzu, die auf Grasblöcke prüft. 
 
 ```template
 //Place your functions below #  
@@ -59,3 +59,4 @@ Do this by adding an `||logic:if else||` conditional, that inspects for grass bl
 //Call function to make Agent move forward            |Part 1
 //Call function to make Agent turn left               |Part 1                       
 ```
+

@@ -1,5 +1,5 @@
-### @explicitHints true
-# Activity 1 -  Too heavy!
+﻿### @explicitHints true
+# Aktivität 1 -  Zu schwer!
 
 ```python
 for i in range(2):
@@ -10,10 +10,11 @@ agent.place(FORWARD)
 ```
 
 ## Step 1
-**Part 1:** Write some code so that the Agent will pick up the box and move **6** blocks **forward** and then place it **forward**.
+**Teil 1:** Schreibe einen Code, damit der Agent die Kiste aufnimmt, **6** Blöcke **vorwärts** geht und sie dann **vorne** ablegt.
 
 ## Step 2
-**Part 2:** Edit the same code so that the Agent goes back to the starting point. It needs to do the same thing but **4** times. Use a `||loops: for||` loop at the beginning. 
-The boxes will be automatically stacked. 
+**Teil 2:** Bearbeite denselben Code so, dass der Agent zum Startpunkt zurückkehrt. Er soll dasselbe **4** Mal machen. Nutze dafür am Anfang eine `||loops: for||`-Schleife. 
+Die Kisten werden automatisch gestapelt. 
 ### ~ tutorialhint 
-Don't forget to indent everything after the loop using the **tab** key on the keyboard.
+Denke daran, alles nach der Schleife mit der **Tab**-Taste einzurücken.
+

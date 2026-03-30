@@ -1,6 +1,6 @@
 ﻿### @explicitHints true
  
-# Activity 2 -  Is it left, or right? 
+# Aktivität 2 -  Ist es links oder rechts? 
 
 ```python
 agent.inspect(AgentInspection.BLOCK, FORWARD)
@@ -13,22 +13,22 @@ if True:
 ```
 
 ## Step 1
-**Part 1:** Write some code, using an `||logic:if else||` conditional, to make the Agent turn left when it reaches the sign and
-then move forward onto the gold block. Use an `||agent:agent inspect||` command as the condition and compare it to the variable **left**.
-The `||agent:agent inspect||` command looks like: 
+**Teil 1:** Schreibe einen Code mit einer `||logic:if else||`-Bedingung, damit der Agent am Schild nach links dreht und
+sich dann vorwärts auf den Goldblock bewegt. Nutze `||agent:agent inspect||` als Bedingung und vergleiche mit der Variable **left**.
+Der Befehl `||agent:agent inspect||` sieht so aus: 
 ```python
 agent.inspect(AgentInspection.BLOCK, FORWARD)
 ```
-Use the variables already provided in your code: left = BLUE_GLAZED_TERRACOTTA, right = PINK_GLAZED_TERRACOTTA.
+Nutze die bereits vorhandenen Variablen in deinem Code: left = BLUE_GLAZED_TERRACOTTA, right = PINK_GLAZED_TERRACOTTA.
 ### ~ tutorialhint 
-To check if two values are equal, use **==**.
+Um zu prüfen, ob zwei Werte gleich sind, verwende **==**.
 
 ## Step 2
-**Part 2:** Edit the code so that the Agent turns in both directions until it reaches the gold block. Do this by adding an **elif**
-conditional in between the **if** and **else** parts.
+**Teil 2:** Bearbeite den Code so, dass der Agent in beide Richtungen abbiegt, bis er den Goldblock erreicht. Füge dazu ein **elif**
+zwischen **if** und **else** ein.
 ### ~ tutorialhint 
-Use the **elif** conditional with an `||agent:agent inspect||` command
-as the condition and compare it to the variable **right**.
+Verwende **elif** mit einem `||agent:agent inspect||`-Befehl
+als Bedingung und vergleiche mit der Variable **right**.
 
 ```template
 left = BLUE_GLAZED_TERRACOTTA
@@ -44,4 +44,5 @@ agent.turn(LEFT_TURN)
 //Make the agent move forward                         |Part 1
 //End of loop                                         |Part 1
 ```
+
 

@@ -1,6 +1,6 @@
 ﻿### @explicitHints true
 ### @hideIteration true 
-# Activity 1 - Animal categorizing.
+# Aktivität 1 - Tiere kategorisieren.
 
 ```python
 blocks.place()
@@ -9,12 +9,12 @@ world(0, 0, 0)
 ```
 
 ## Step 1
-Write code with a list named **My_list** that contains the animals from **left** to **right** in the Minecraft world. 
-Place **4** more `||mobs:spawn mob at position||` commands after the one that's already given. Use the information from the signs 
-on the pens to complete these commands. 
+Schreibe einen Code mit einer Liste namens **My_list**, die die Tiere in der Minecraft-Welt von **links** nach **rechts** enthält. 
+Füge **4** weitere `||mobs:spawn mob at position||`-Befehle nach dem bereits vorhandenen Befehl ein. Nutze die Informationen auf den Schildern 
+an den Gehegen, um diese Befehle zu vervollständigen. 
 
 ### ~ tutorialhint 
-Remember that list positions start from zero. 
+Denke daran, dass Listenpositionen bei null beginnen. 
 
 ```template 
 location1 = world(-2, 40, -11)
@@ -32,4 +32,5 @@ mobs.spawn(My_list[0], location1)
 //spawn the second mob from the list at location4
 //spawn the fourth mob from the list at location5
 ```
+
 

@@ -1,11 +1,12 @@
-### @explicitHints true
+﻿### @explicitHints true
 ### @hideIteration true 
-# Activity 2 - All of the lights.
+# Aktivität 2 - Alle Lichter.
 
 ```python
 blocks.place(GRASS_BLOCK, pos(0, 0, 0))
 ```
 
 ## Step 1
-Place the **redstone lamps** in the light fittings at the specified heights by changing the **second** coordinate 
-of the **second** parameter in the `||blocks: place block at position||` command.
+Platziere die **Redstone-Lampen** in den Fassungen auf den vorgegebenen Höhen, indem du die **zweite** Koordinate 
+des **zweiten** Parameters im Befehl `||blocks: place block at position||` änderst.
+

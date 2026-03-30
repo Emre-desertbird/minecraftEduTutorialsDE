@@ -1,7 +1,7 @@
 ﻿### @explicitHints true
 ### @hideIteration true 
 
-# Diamond or dirt?
+# Diamant oder Erde?
 
 ```python
 agent.move(FORWARD, 5)
@@ -27,8 +27,8 @@ while True:
 ```
 
 ## Step 1
-Write some code to calculate the answers to these four expressions. You need to get the Agent to the gold block, do this by placing a diamond or dirt
-block, from the chest, depending on the answer of the expression. From left to right, if the answer is 1 place a diamond block, if it's 0 place a dirt block. 
+Schreibe einen Code, um die Ergebnisse dieser vier Ausdrücke zu berechnen. Du musst den Agenten zum Goldblock bringen. Platziere dafür einen Diamant- oder Erdblock
+aus der Truhe, abhängig vom Ergebnis des Ausdrucks. Von links nach rechts gilt: Wenn das Ergebnis 1 ist, platziere einen Diamantblock; wenn es 0 ist, einen Erdblock. 
 ```python
 1. 10000 / 10000 + 64.64 + 64.64 - 72 - 57.28
 2. 64 / 4 + 64 / 64 - 128 / 8 - 1
@@ -44,5 +44,6 @@ block, from the chest, depending on the answer of the expression. From left to r
 //
 //Calculate the expression: 8 - 9 + 7 + 32 * 2 - 64 / 2 - 38 
 ```
+
 
 

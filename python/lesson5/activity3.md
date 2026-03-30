@@ -1,5 +1,5 @@
 ﻿### @explicitHints true
-# Activity 3 - Cleaning up.
+# Aktivität 3 - Aufräumen.
 
 ```python
 for i in range(2):
@@ -10,15 +10,15 @@ agent.drop_all(FORWARD)
 ```
 
 ## Step 1
-**Part 1:** Write some code so that the Agent will go over every block of the small carpet and pick up the dirt.
+**Teil 1:** Schreibe einen Code, damit der Agent über jeden Block des kleinen Teppichs geht und den Schmutz aufnimmt.
 ### ~ tutorialhint 
-Don't forget that, in this case, two loops should not have the same variable name.
+Denke daran: In diesem Fall dürfen zwei Schleifen nicht denselben Variablennamen haben.
 
 ## Step 2
-**Part 2:** Edit the same code so that the Agent does the same thing but for the larger carpet. Do this by repeating the code **3** times,
-using a `||loops:for||` loop. At the end, try to make the Agent drop all dirt into the trash to its **right**. 
+**Teil 2:** Bearbeite denselben Code so, dass der Agent dasselbe für den größeren Teppich macht. Wiederhole den Code dafür **3** Mal,
+mit einer `||loops:for||`-Schleife. Am Ende soll der Agent den ganzen Schmutz in den Mülleimer zu seiner **rechten** Seite ablegen. 
 ### ~ tutorialhint 
-Remember that you will need to use double indentation in your code.
+Denke daran, dass du in deinem Code doppelte Einrückung brauchst.
 
 ```template
 //Replace the lines below with your code #    
@@ -36,4 +36,5 @@ agent.move(RIGHT, 1)
 //end of loop 3  
 //make the Agent drop all to the right          | Part 2  
 ```
+
 

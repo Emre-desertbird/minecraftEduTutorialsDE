@@ -4,8 +4,9 @@
 player.say
 ```
 ## Introduction @unplugged
-Congratulations, you have finished this lesson!
+Glückwunsch, du hast diese Lektion abgeschlossen!
 
 ## Step 1 
-Congratulations, you have finished this lesson!
+Glückwunsch, du hast diese Lektion abgeschlossen!
+
 

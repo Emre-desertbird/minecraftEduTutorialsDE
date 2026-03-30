@@ -3,17 +3,17 @@
 
 ### @explicitHints true
 ### @hideIteration true 
-# Activity 2 - Ideal planting spot.
+# Aktivität 2 - Idealer Pflanzplatz.
 
 ```python
 blocks.place()
 ```
-# Activity 2 - Ideal planting spot.
+# Aktivität 2 - Idealer Pflanzplatz.
 
 ## Step 1
-Look at each of the **5** location variables and identify which crop is at each coordinate. Then create
-**5** `||blocks: place block at position||` commands, using either **PUMPKIN** or **MELON_BLOCK**, at the correct location variable 
-to match the crop at that coordinate. To view the coordinates and coding window at the same time, click the half coding window button in the top-left corner. 
+Sieh dir jede der **5** Ortsvariablen an und bestimme, welche Pflanze an jeder Koordinate steht. Erstelle dann
+**5** `||blocks: place block at position||`-Befehle, mit **PUMPKIN** oder **MELON_BLOCK**, bei der jeweils richtigen Ortsvariable 
+damit die Pflanze zur jeweiligen Koordinate passt. Um Koordinaten und Codefenster gleichzeitig zu sehen, klicke oben links auf die Schaltfläche für das halbe Codefenster. 
 ### ~ tutorialhint
 blocks.place(**crop type**, **location variable**)
 
@@ -33,3 +33,4 @@ location5 = world(-31, 40, -17)
 //place block at location5 command
 
 ```
+

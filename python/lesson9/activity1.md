@@ -1,6 +1,6 @@
 ﻿### @explicitHints true
 ### @hideIteration true 
-# Activity 1 - Game controls.  
+# Aktivität 1 - Spielsteuerung.  
 
 ```python
 agent.move(FORWARD, 5)
@@ -16,11 +16,11 @@ while True:
 ```
 
 ## Step 1
-There are two 'buttons' on the controller: **blue** moves the Agent left and **red** moves the Agent right. Write code 
-so that when you stand on the red or blue blocks the Agent moves in the correct direction.  
+Es gibt zwei 'Tasten' auf dem Controller: **blau** bewegt den Agenten nach links und **rot** nach rechts. Schreibe einen Code 
+sodass sich der Agent in die richtige Richtung bewegt, wenn du auf den roten oder blauen Blöcken stehst.  
 
 ### ~ tutorialhint
-A `||loops:while||` loop with the condition set to **True** will repeat continuously. 
+Eine `||loops:while||`-Schleife mit der Bedingung **True** wiederholt sich fortlaufend. 
 
 ```template
 //Replace with your functions below #
@@ -34,4 +34,5 @@ A `||loops:while||` loop with the condition set to **True** will repeat continuo
 //While loop with True as condition 
 //Call function                      
 ```
+
 

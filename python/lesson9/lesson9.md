@@ -1,5 +1,5 @@
 ﻿### @explicitHints true
-# Agent Invader  
+# Agenten-Invasion  
 
 ```python
 pos(0, 0, 0)
@@ -25,43 +25,43 @@ while True:
 ```
 
 ## Step 1
-**Activity 1 - Game controls:**
-There are two 'buttons' on the controller: blue moves the Agent left and red moves the Agent right. Write some code 
-so that when you stand on the red or blue blocks the Agent moves in the correct direction. Use the test for block command below, to check if a block 
-is in a certain position:
+**Aktivität 1 - Spielsteuerung:**
+Es gibt zwei 'Tasten' auf dem Controller: Blau bewegt den Agenten nach links und Rot nach rechts. Schreibe einen Code, 
+sodass sich der Agent in die richtige Richtung bewegt, wenn du auf den roten oder blauen Blöcken stehst. Nutze den unten gezeigten Befehl zum Blocktest, um zu prüfen, ob ein Block 
+an einer bestimmten Position ist:
 ```python
 blocks.test_for_block(BLOCK_NAME, pos(0, 0, 0))
 ```
 
 ### ~ tutorialhint
-A `||loops:while||` loop with the condition set to **True** will repeat continuously. Do **not** delete any pregiven code in the coding window.
+Eine `||loops:while||`-Schleife mit der Bedingung **True** wiederholt sich fortlaufend. Lösche **keinen** vorgegebenen Code im Codefenster.
 
 ## Step 2
-**Activity 2 - Firing system -**
-**Part 1:** Write another function to make the Agent shoot the gold blocks above it.
-Use a `||mobs: mob spawn||` command with **FIREWORKS_ROCKET** to shoot. Each gold block shot needs to be replaced with an **AIR** block, to make it disappear.
-Use an `||agent: agent position||` command to get the Agent's position.
-Use an add positions command with an `||agent: agent position||` command inside it to get the position of the **AIR** block. 
-The two commands together look like:
+**Aktivität 2 - Schusssystem -**
+**Teil 1:** Schreibe eine weitere Funktion, damit der Agent die Goldblöcke über sich abschießt.
+Verwende zum Schießen den Befehl `||mobs: mob spawn||` mit **FIREWORKS_ROCKET**. Jeder getroffene Goldblock muss durch einen **AIR**-Block ersetzt werden, damit er verschwindet.
+Nutze den Befehl `||agent: agent position||`, um die Position des Agenten zu erhalten.
+Verwende einen Add-Positions-Befehl mit `||agent: agent position||`, um die Position des **AIR**-Blocks zu ermitteln. 
+Zusammen sehen die beiden Befehle so aus:
 ```python 
 positions.add(agent.get_position(), pos(0, 0, 0))
 ```
 ## Step 3
-**Part 2:** Add to the code to make the Agent shoot at the second row of gold blocks, using an additional `||logic: elif||`
-conditional. 
+**Teil 2:** Ergänze den Code, damit der Agent auch auf die zweite Reihe Goldblöcke schießt, mit einer zusätzlichen `||logic: elif||`
+Bedingung. 
 
 ## Step 4
-**Activity 3 - Scoring system:**
-In the code you have been given a variable named `||variables:score||`, add **1** to the variable each time the Agent shoots a gold block.
-Edit the condition in the while loop, so that it only loops when `||variables:score||` is less than or equal to **15**. 
-Add two splash screens at the start and end of the game using the `||gameplay:show title||` command. Declare the `||variable:score||` variable
-as global, using the command:
+**Aktivität 3 - Punktesystem:**
+Im gegebenen Code gibt es die Variable `||variables:score||`. Addiere **1**, jedes Mal, wenn der Agent einen Goldblock abschießt.
+Bearbeite die Bedingung der While-Schleife so, dass sie nur läuft, wenn `||variables:score||` kleiner oder gleich **15** ist. 
+Füge am Anfang und Ende des Spiels zwei Splash-Screens mit `||gameplay:show title||` hinzu. Deklariere die Variable `||variable:score||`
+als global mit folgendem Befehl:
 ```
 global score 
 ```
 
 ### ~ tutorialhint
-**<=** means **less than or equal to**.
+**<=** bedeutet **kleiner oder gleich**.
 
 
 ```template
@@ -96,4 +96,5 @@ score = 0
 if score > 15
 player.execute("scoreboard players set @p score 15")
 ```
+
 

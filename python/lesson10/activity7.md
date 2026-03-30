@@ -1,6 +1,6 @@
-### @explicitHints true
+﻿### @explicitHints true
 ### @hideIteration true 
-# Pumpkin or melon? 
+# Kürbis oder Melone? 
 
 ```python
 agent.move(FORWARD, 5)
@@ -26,4 +26,5 @@ while True:
 ```
 
 ## Step 1
-Make the Agent move forward to the gold block while breaking the melons but leaving the pumpkins alone. 
+Lass den Agenten zum Goldblock vorwärtslaufen, dabei Melonen abbauen und Kürbisse stehen lassen. 
+

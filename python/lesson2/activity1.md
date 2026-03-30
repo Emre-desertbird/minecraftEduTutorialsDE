@@ -1,13 +1,14 @@
 ﻿### @explicitHints true
 ### @hideIteration true 
-# Activity 1 - Place the correct block.
+# Aktivität 1 - Platziere den richtigen Block.
 
 ```python
 blocks.place(GRASS_BLOCK, pos(0, 0, 0))
 ```
 
 ## Step 1
-Place the **grass** and **brick** blocks in the designated areas by using the `||blocks: place block at position||` command. Change the first parameter to the required block type 
-using code completion: start typing the block name, then select the correct option.
+Platziere die **Gras**- und **Ziegel**-Blöcke in den vorgesehenen Bereichen mit dem Befehl `||blocks: place block at position||`. Ändere den ersten Parameter auf den benötigten Blocktyp 
+mit Code-Vervollständigung: Beginne den Blocknamen zu tippen und wähle dann die richtige Option aus.
 ### ~ tutorialhint 
-If a block is placed incorrectly, talk to the NPC and use the **try again** button to clear and restart the activity. 
+Wenn ein Block falsch platziert wurde, sprich mit dem NPC und nutze die Schaltfläche **erneut versuchen**, um die Aktivität zu löschen und neu zu starten. 
+

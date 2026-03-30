@@ -1,6 +1,6 @@
 ﻿### @explicitHints true
 
-# Activity 3 - Home reconstruction. 
+# Aktivität 3 - Hausrekonstruktion. 
 
 ```python
 agent.turn(LEFT_TURN)
@@ -12,15 +12,15 @@ while True:
 ```
 
 ## Step 1
-**Part 1:** Write some code to make the Agent follow the guideline of Redstone dust and place blocks to its left to make the small house's foundation.
-Use **two** `||loops:while||` loops with **two** sequences, one for the straight sections and one for the outside corners. 
+**Teil 1:** Schreibe einen Code, damit der Agent der Redstone-Linie folgt und links von sich Blöcke für das Fundament des kleinen Hauses setzt.
+Nutze **zwei** `||loops:while||`-Schleifen mit **zwei** Sequenzen: eine für gerade Abschnitte und eine für Außenecken. 
 
 ## Step 2 
-**Part 2:** Add to the code to make the Agent build the foundation of a larger house. Write an additional `||loops:while||` loop with 
-an additional sequence for the inside corners.  
+**Teil 2:** Ergänze den Code, damit der Agent das Fundament eines größeren Hauses baut. Schreibe eine zusätzliche `||loops:while||`-Schleife mit 
+einer zusätzlichen Sequenz für die Innenecken.  
 ### ~ tutorialhint 
-When writing the sequence for the inside corners it needs to include a part where 
-the Agent needs to move one block beyond the outline to place a block, and then move back. 
+Die Sequenz für die Innenecken muss einen Teil enthalten, bei dem 
+der Agent einen Block über die Umrandung hinausgeht, einen Block platziert und dann zurückgeht. 
 
 ```template
 //Replace the lines below with your code #    
@@ -40,5 +40,6 @@ agent.turn(LEFT_TURN)
 //End of while loop 3
 //End of while loop 1                        
 ```
+
 
 

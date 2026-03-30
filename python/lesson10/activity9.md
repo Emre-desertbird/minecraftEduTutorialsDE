@@ -1,6 +1,6 @@
-### @explicitHints true
+﻿### @explicitHints true
 ### @hideIteration true 
-# The Agent labyrinth.
+# Das Agenten-Labyrinth.
 
 ```python
 agent.move(FORWARD, 5)
@@ -26,8 +26,9 @@ while True:
 ```
 
 ## Step 1
-Navigate the Agent through the maze. Write some code to use the colored blocks as forward, left, and right control directions for the Agent to move in.
-Then control the Agent to the end of the maze by standing on the colored blocks. 
+Steuere den Agenten durch das Labyrinth. Schreibe einen Code, um die farbigen Blöcke als Steuerung für vorwärts, links und rechts zu verwenden.
+Steuere den Agenten dann bis zum Ende des Labyrinths, indem du auf den farbigen Blöcken stehst. 
 
 ### ~ tutorialhint
-Try using an endlessly repeating while loop.
+Versuche eine endlos laufende `while`-Schleife zu verwenden.
+

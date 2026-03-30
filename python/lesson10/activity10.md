@@ -1,7 +1,7 @@
 ﻿### @explicitHints true
 ### @hideIteration true 
 
-# Do I need to list it out? 
+# Muss ich das auflisten? 
 
 ```python
 agent.move(FORWARD, 5)
@@ -27,12 +27,13 @@ while True:
 ```
 
 ## Step 1
-You have been given a list. Delete the quotes (**'**) from the beginning and end of each line. To find what block type the Agent should stand on, **sort** the list alphabetically
-and take the **second** item. Stand on the correct block type and press the button to teleport the Agent there. 
-To find which block type your player should stand on, **reverse** the list and **pop** the **fourth** item. 
-Get the **sixth** block type from the list and stand on it.
+Du hast eine Liste erhalten. Entferne die Anführungszeichen (**'**) am Anfang und Ende jeder Zeile. Um den Blocktyp zu finden, auf dem der Agent stehen soll, **sortiere** die Liste alphabetisch
+und nimm den **zweiten** Eintrag. Stelle dich auf den richtigen Blocktyp und drücke die Taste, um den Agenten dorthin zu teleportieren. 
+Um den Blocktyp zu finden, auf dem dein Spieler stehen soll, **drehe** die Liste um (**reverse**) und **poppe** den **vierten** Eintrag. 
+Nimm den **sechsten** Blocktyp aus der Liste und stelle dich darauf.
 
 ```template
 'block_list = ["DIAMOND", "ICE", "EMERALD", "STONE", "WOOD", "GOLD", "QUARTZ"]'
 ```
+
 

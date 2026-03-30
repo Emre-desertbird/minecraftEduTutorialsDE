@@ -1,6 +1,6 @@
-### @explicitHints true
+﻿### @explicitHints true
 ### @hideIteration true 
-# Activity 2 - Firebreak. 
+# Aktivität 2 - Feuerschneise. 
 
 ```python
 agent.turn(LEFT_TURN)
@@ -12,9 +12,9 @@ while True:
 ```
 
 ## Step 1
-Write some code to make the Agent move forward when there is Redstone dust in front of it.
-While moving forward the Agent should make a one-block high wall to its left.
-When it encounters a change in terrain height the Agent needs to move up and continue the wall.
+Schreibe einen Code, damit sich der Agent vorwärts bewegt, wenn vor ihm Redstone-Staub liegt.
+Während der Vorwärtsbewegung soll der Agent links von sich eine ein Block hohe Wand bauen.
+Wenn sich die Geländehöhe ändert, muss der Agent nach oben gehen und die Wand fortsetzen.
 
 ```template
 //Replace the lines below with your code #
@@ -29,3 +29,4 @@ agent.place(LEFT)
 //Make the Agent move forward
 //End while loop 1                         
 ```
+

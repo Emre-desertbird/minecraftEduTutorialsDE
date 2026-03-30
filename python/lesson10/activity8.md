@@ -1,6 +1,6 @@
 ﻿### @explicitHints true
 ### @hideIteration true 
-# Diamond rush. 
+# Diamantenrausch. 
 
 ```python
 agent.move(FORWARD, 5)
@@ -26,10 +26,10 @@ while True:
 ```
 
 ## Step 1
-Delete the quotes (**'**) from the beginning and end of each line. 
-Finish the code so that the Agent moves towards the gold block and counts each diamond block it passes over.   
-At the end, when the Agent reaches the gold block, the Agent should then place the number of diamond blocks it passed over, in front of it, 
-one by one. These blocks will be automatically stacked by a piston.  
+Entferne die Anführungszeichen (**'**) am Anfang und Ende jeder Zeile. 
+Vervollständige den Code so, dass der Agent zum Goldblock läuft und jeden Diamantblock zählt, über den er läuft.   
+Am Ende, wenn der Agent den Goldblock erreicht, soll er vor sich so viele Blöcke platzieren, wie Diamantblöcke er überquert hat, 
+einen nach dem anderen. Diese Blöcke werden automatisch von einem Kolben gestapelt.  
 ```template
 'diamond = 0'
 'for index in range(11):'
@@ -38,3 +38,4 @@ one by one. These blocks will be automatically stacked by a piston.
 '    agent.place(FORWARD)'
 '    loops.pause(500)'
 ```
+

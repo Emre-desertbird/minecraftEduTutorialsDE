@@ -1,13 +1,14 @@
-### @explicitHints true
+﻿### @explicitHints true
 ### @hideIteration true 
-# Activity 4 - Getting across.
+# Aktivität 4 - Hinüberkommen.
 
 ```python
 blocks.place(GRASS_BLOCK, pos(0, 0, 0))
 ```
 
 ## Step 1
-Write some code to construct a line of floor made out of five **plank oak** blocks to get over to the other side. You will need to change the **first** and **second** coordinate of the **second**
-parameter in the `||blocks: place block at position||` commands. You must make sure that you build at floor height.
+Schreibe einen Code, um eine Bodenlinie aus fünf **Eichenholzplanken** zu bauen, damit du auf die andere Seite kommst. Du musst die **erste** und **zweite** Koordinate des **zweiten**
+Parameter in den `||blocks: place block at position||`-Befehlen ändern. Achte darauf, auf Bodenhöhe zu bauen.
 ### ~ tutorialhint 
-Try using negative numbers as the coordinates.
+Versuche, negative Zahlen als Koordinaten zu verwenden.
+
