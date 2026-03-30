@@ -1,4 +1,4 @@
-### @explicitHints true
+﻿### @explicitHints true
 ### @hideIteration true 
 
 # What's that syntax!? 
@@ -27,7 +27,7 @@ while True:
 ```
 
 ## Step 1
-The code below is missing all of its syntax, add the correct syntax in the coding window to make the code run. 
+The code below is missing its syntax. Add the correct syntax in the coding window so the code runs. 
 Then place the matching missing syntax blocks in the world.
 ```python
 for i in range 10

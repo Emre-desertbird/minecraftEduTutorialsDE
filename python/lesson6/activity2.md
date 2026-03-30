@@ -1,4 +1,4 @@
-### @explicitHints true
+﻿### @explicitHints true
  
 # Activity 2 -  Is it left, or right? 
 
@@ -19,7 +19,7 @@ The `||agent:agent inspect||` command looks like:
 ```python
 agent.inspect(AgentInspection.BLOCK, FORWARD)
 ```
-Use the variables already provided in your code: left = BLUE_GLAZED_TERRACOTTA, right = PINK_GLAZED_TERRACOTTA
+Use the variables already provided in your code: left = BLUE_GLAZED_TERRACOTTA, right = PINK_GLAZED_TERRACOTTA.
 ### ~ tutorialhint 
 To check if two values are equal, use **==**.
 
@@ -44,3 +44,4 @@ agent.turn(LEFT_TURN)
 //Make the agent move forward                         |Part 1
 //End of loop                                         |Part 1
 ```
+

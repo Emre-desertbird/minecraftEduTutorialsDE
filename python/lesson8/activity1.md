@@ -1,4 +1,4 @@
-### @explicitHints true
+﻿### @explicitHints true
 
 # Activity 1 - One row at a time. 
 
@@ -20,7 +20,7 @@ def function_name():
 Remember to describe, in a comment, what your function does.  
 
 ## Step 2 
-**Part 2:** Add to the code to make the Agent use fertilizer on the saplings, **6** times each.
+**Part 2:** Add to the code so the Agent uses fertilizer on each sapling **6** times.
 ### ~ tutorialhint 
 The Agent has fertilizer in its **second** inventory slot. Switch between the Agent's **first** and **second** slots using the `||agent:set active slot||`
 command.  
@@ -47,3 +47,4 @@ agent.move(FORWARD, 1)
 //Make the Agent move forward                 |Part 1
 //Call your function                          |Part 1                 
 ```
+

@@ -30,4 +30,4 @@ Navigate the Agent through the maze. Write some code to use the colored blocks a
 Then control the Agent to the end of the maze by standing on the colored blocks. 
 
 ### ~ tutorialhint
-Try using a endlessly repeating while loop.
+Try using an endlessly repeating while loop.

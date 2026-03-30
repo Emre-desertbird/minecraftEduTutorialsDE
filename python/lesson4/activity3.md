@@ -1,6 +1,6 @@
-### @explicitHints true
+﻿### @explicitHints true
 
-# Activity 3 - What is the cats name?
+# Activity 3 - What is the cat's name?
 
 ```python
 player.say("hi")
@@ -11,7 +11,7 @@ Set the last name in the list of cat names to now equal the string **Shadow**.
 Change the value inside the `||player:say||` command so that it displays the **last** name in the list. 
 Then press the **select a cat** button and choose the cat shown in the chat.   
 ### ~ tutorialhint 
-To change a value in a list use: List_Name[positional value] = "New Cat Name" .
+To change a value in a list, use: List_Name[positional value] = "New Cat Name".
 
 ## Step 2
 Sort the list of cat names alphabetically using the **sort** method. 
@@ -35,3 +35,4 @@ Cat_Names= ["Smokey", "Oreo", "Sammy", "Patch", "Princess", "Snowy"]
 //Change the value of the list below | Step 1,2,3
 player.say(Cat_Names[0])  
 ```
+

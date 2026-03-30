@@ -1,4 +1,4 @@
-### @explicitHints true
+﻿### @explicitHints true
 ### @hideIteration true 
 # Blinding lights. 
 
@@ -26,8 +26,10 @@ while True:
 ```
 
 ## Step 1
-Make the Agent place the Redstone lamps on top of the Redstone blocks lights while walking forwards on the walkway.
+Make the Agent place Redstone lamps on top of the Redstone light blocks while walking forward on the walkway.
 
 ### ~ tutorialhint
-The Agent already have all of the required blocks in its inventory.
+The Agent already has all of the required blocks in its inventory.
+
+
 

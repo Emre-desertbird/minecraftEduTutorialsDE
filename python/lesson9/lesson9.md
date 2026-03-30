@@ -1,4 +1,4 @@
-### @explicitHints true
+﻿### @explicitHints true
 # Agent Invader  
 
 ```python
@@ -26,7 +26,7 @@ while True:
 
 ## Step 1
 **Activity 1 - Game controls:**
-There are two 'buttons' on the controller, blue is to make the Agent move left and red is to make the Agent move right. Write some code 
+There are two 'buttons' on the controller: blue moves the Agent left and red moves the Agent right. Write some code 
 so that when you stand on the red or blue blocks the Agent moves in the correct direction. Use the test for block command below, to check if a block 
 is in a certain position:
 ```python
@@ -41,7 +41,7 @@ A `||loops:while||` loop with the condition set to **True** will repeat continuo
 **Part 1:** Write another function to make the Agent shoot the gold blocks above it.
 Use a `||mobs: mob spawn||` command with **FIREWORKS_ROCKET** to shoot. Each gold block shot needs to be replaced with an **AIR** block, to make it disappear.
 Use an `||agent: agent position||` command to get the Agent's position.
-Use an add positions command with an `||agent: agent position||` command inside, to get the position of the **AIR** block. 
+Use an add positions command with an `||agent: agent position||` command inside it to get the position of the **AIR** block. 
 The two commands together look like:
 ```python 
 positions.add(agent.get_position(), pos(0, 0, 0))
@@ -54,7 +54,7 @@ conditional.
 **Activity 3 - Scoring system:**
 In the code you have been given a variable named `||variables:score||`, add **1** to the variable each time the Agent shoots a gold block.
 Edit the condition in the while loop, so that it only loops when `||variables:score||` is less than or equal to **15**. 
-Add two splash screens at the start and the end of the game using the `||gameplay:show title||` command. Declare the `||variable:score||` variable
+Add two splash screens at the start and end of the game using the `||gameplay:show title||` command. Declare the `||variable:score||` variable
 as global, using the command:
 ```
 global score 
@@ -96,3 +96,4 @@ score = 0
 if score > 15
 player.execute("scoreboard players set @p score 15")
 ```
+

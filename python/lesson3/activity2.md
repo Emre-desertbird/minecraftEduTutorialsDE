@@ -1,4 +1,4 @@
-### @codeStart players set @s makecode 0
+﻿### @codeStart players set @s makecode 0
 ### @codeStop players set @s makecode 1
 
 ### @explicitHints true
@@ -11,9 +11,9 @@ blocks.place()
 # Activity 2 - Ideal planting spot.
 
 ## Step 1
-Look at each of the **5** different location variables and see what crops are at these coordinates. Then create
-**5** `||blocks: place block at position||` commands ,with either **PUMPKIN** or **MELON_BLOCK**, at the correct location variable 
-to match the crop at the coordinate. To see the coordinates and coding window at same time, click on the half coding window button in the top left-hand corner. 
+Look at each of the **5** location variables and identify which crop is at each coordinate. Then create
+**5** `||blocks: place block at position||` commands, using either **PUMPKIN** or **MELON_BLOCK**, at the correct location variable 
+to match the crop at that coordinate. To view the coordinates and coding window at the same time, click the half coding window button in the top-left corner. 
 ### ~ tutorialhint
 blocks.place(**crop type**, **location variable**)
 

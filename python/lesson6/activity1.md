@@ -1,4 +1,4 @@
-### @explicitHints true
+﻿### @explicitHints true
 
 # Activity 1 -  Stop and go.
 
@@ -20,7 +20,7 @@ agent.detect(AgentDetection.BLOCK, LEFT)
 ```
 
 ## Step 2
-**Part 2:** Edit the code so that the Agent moves when there **no** block to its left. 
+**Part 2:** Edit the code so that the Agent moves when there is **no** block to its left. 
 Do this by adding a **not** operator before the condition. 
 
 ## Step 3
@@ -40,3 +40,4 @@ loops.pause(2000)
 //Make the Agent move forward                                  |Part 3
 //End of loop
 ```
+

@@ -1,10 +1,11 @@
-### @hideIteration true 
+﻿### @hideIteration true 
 
 ```python
 player.say
 ```
 ## Introduction @unplugged
-    No coding is needed now, please go back to the map by exiting the coding window.
+    No coding is needed right now. Exit the coding window and return to the map.
 
 ## Step 1 
-    No coding is needed now, please go back to the map by exiting the coding window.
+    No coding is needed right now. Exit the coding window and return to the map.
+

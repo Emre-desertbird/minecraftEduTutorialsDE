@@ -1,4 +1,4 @@
-### @explicitHints true
+﻿### @explicitHints true
 ### @hideIteration true 
 # Activity 1 - Game controls.  
 
@@ -16,7 +16,7 @@ while True:
 ```
 
 ## Step 1
-There are two 'buttons' on the controller, **blue** is to make the Agent move left and **red** is to make the Agent move right. Write a code 
+There are two 'buttons' on the controller: **blue** moves the Agent left and **red** moves the Agent right. Write code 
 so that when you stand on the red or blue blocks the Agent moves in the correct direction.  
 
 ### ~ tutorialhint
@@ -34,3 +34,4 @@ A `||loops:while||` loop with the condition set to **True** will repeat continuo
 //While loop with True as condition 
 //Call function                      
 ```
+

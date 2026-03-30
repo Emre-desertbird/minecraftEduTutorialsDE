@@ -1,4 +1,4 @@
-### @explicitHints true
+﻿### @explicitHints true
 
 # Activity 3 - Home reconstruction. 
 
@@ -16,8 +16,8 @@ while True:
 Use **two** `||loops:while||` loops with **two** sequences, one for the straight sections and one for the outside corners. 
 
 ## Step 2 
-**Part 2:** Add to the code to make the Agent build the foundation of a larger house. Write a additional `||loops:while||` loop with 
-an additional sequences for the inside corners.  
+**Part 2:** Add to the code to make the Agent build the foundation of a larger house. Write an additional `||loops:while||` loop with 
+an additional sequence for the inside corners.  
 ### ~ tutorialhint 
 When writing the sequence for the inside corners it needs to include a part where 
 the Agent needs to move one block beyond the outline to place a block, and then move back. 
@@ -40,3 +40,5 @@ agent.turn(LEFT_TURN)
 //End of while loop 3
 //End of while loop 1                        
 ```
+
+

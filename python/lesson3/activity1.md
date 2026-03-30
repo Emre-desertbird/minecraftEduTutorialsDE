@@ -1,4 +1,4 @@
-### @explicitHints true
+﻿### @explicitHints true
 
 ```python
 .
@@ -13,7 +13,7 @@ Remember to use quotes with strings.
  
 ## Step 2
 Look at the monitor on the wall and change the fruit variable value to match the sequence. 
-Run the code and press the matching fruit buttons in the same sequence as in the chat, untill all of the lights turn on. 
+Run the code and press the matching fruit buttons in the same sequence as in the chat, until all of the lights turn on. 
 
 ```template
 //Replace the lines below with your code #

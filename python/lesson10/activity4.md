@@ -1,4 +1,4 @@
-### @explicitHints true
+﻿### @explicitHints true
 ### @hideIteration true 
 
 # Spring arrival
@@ -27,7 +27,7 @@ while True:
 ```
 
 ## Step 1
-In the coding window you have a been given a code that does not work. Delete the quotes (**'**) from the begining and end of each line. 
+In the coding window, you have been given code that does not work. Delete the quotes (**'**) from the beginning and end of each line. 
 This code is supposed to plant flowers on each block of grass by making the Agent move through the area row by row.
 Can you finish the code by adding a conditional and debugging the main loop?
 ```template
@@ -47,4 +47,6 @@ Can you finish the code by adding a conditional and debugging the main loop?
 '   agent.move(FORWARD, 1)'
 '   agent.turn(LEFT_TURN)'
 ```
+
+
 
